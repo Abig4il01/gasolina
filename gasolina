@@ -1,0 +1,6 @@
+import kagglehub
+
+# Download latest version
+path = kagglehub.dataset_download("abigaild4t4/gasolinas")
+
+print("Path to dataset files:", path)
